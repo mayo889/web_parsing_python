@@ -12,7 +12,7 @@ class InstagramSpider(scrapy.Spider):
     start_urls = ['https://www.instagram.com/']
 
     inst_login = 'mayo_866'
-    inst_pwd = '#PWD_INSTAGRAM_BROWSER:9:1617390706:AVdQABab8SIMGdX5VYawDDc4aNX0iVPM7uf9Fx3jnFBJgrwNm/1GyLDQtYLrhHxHYKQ27tMktFvZEVmu3VXnnCctOVN25xEQUmTJ2Q7FI60x0eTLDIhb326CTQVoensqMu1RqJNuixMduA53cqQ='
+    inst_pwd = '#'
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     parse_users = ['khramov_v_a', 'ermakovamash']
 
